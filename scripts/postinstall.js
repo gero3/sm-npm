@@ -1,4 +1,3 @@
-
 const PATH = require("path");
 const FS = require("fs");
 const TERM = require("sourcemint-util-js/lib/term");
