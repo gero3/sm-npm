@@ -6,6 +6,7 @@ const EXEC = require("child_process").exec;
 const ERROR = require("sourcemint-util-js/lib/error");
 
 if (process.platform !== "win32"){
+	
 	TERM.stderr.writenl("\0yellow(Running as UID: " + process.getuid() + "\0)");
 	TERM.stderr.writenl("\0yellow(Running as GID: " + process.getgid() + "\0)");
 
